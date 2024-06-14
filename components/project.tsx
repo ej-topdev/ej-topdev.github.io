@@ -1,7 +1,6 @@
 "use client";
 
 import { useRef } from "react";
-import Image, { StaticImageData } from "next/image";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { BiLinkExternal } from "react-icons/bi";
 import { AiFillGithub, AiFillYoutube } from "react-icons/ai";
@@ -12,7 +11,7 @@ type ProjectProps = {
   description: string;
   tags: readonly string[];
   icons: readonly string[];
-  imageUrl: StaticImageData;
+  imageUrl: string;
   githubLink?: string;
   demoLink?: string;
   urlLink?: string;
@@ -96,10 +95,9 @@ export default function Project({
           </div>
         </div>
 
-        <Image
+        <img
           src={imageUrl}
           alt="Project I worked on"
-          quality={95}
           className="absolute hidden lg:block top-[60px] -right-10 w-[28.25rem] rounded-t-lg shadow-2xl scale-[1.0]
           transition 
           lg:scale-[1.1]

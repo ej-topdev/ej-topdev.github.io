@@ -1,11 +1,5 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import haven from "@/public/projects/haven.png";
-import MarshMcLennan from "@/public/projects/MarshMcLennan.png";
-import the_good_exchange from "@/public/projects/the_good_exchange.png";
-import therapeutic_frontiers from "@/public/projects/therapeutic_frontiers.png";
-import woodfry from "@/public/Projects/woodfry.jpg";
-import palmers from "@/public/Projects/palmers.png";
 
 export const links = [
   {
@@ -83,7 +77,7 @@ export const projectsData = [
       "logos:azure-icon",
       "logos:bootstrap",
     ],
-    imageUrl: the_good_exchange,
+    imageUrl: "/projects/the_good_exchange.png",
     urlLink: "https://thegoodexchange.com/",
   },
   {
@@ -99,7 +93,7 @@ export const projectsData = [
       "logos:aws",
       "logos:tailwindcss-icon",
     ],
-    imageUrl: haven,
+    imageUrl: "projects/haven.png",
     urlLink: "https://www.haven.com/",
   },
   {
@@ -114,7 +108,7 @@ export const projectsData = [
       "logos:mongodb-icon",
       "logos:docker-icon",
     ],
-    imageUrl: MarshMcLennan,
+    imageUrl: "projects/MarshMcLennan.png",
     urlLink: "https://www.marshmclennan.com/",
   },
   {
@@ -129,7 +123,7 @@ export const projectsData = [
       "logos:mongodb-icon",
       "logos:aws",
     ],
-    imageUrl: therapeutic_frontiers,
+    imageUrl: "projects/therapeutic_frontiers.png",
   },
   {
     title: "IV Commerce Sass Platform",
@@ -143,7 +137,7 @@ export const projectsData = [
       "logos:mongodb-icon",
       "logos:docker-icon",
     ],
-    imageUrl: woodfry,
+    imageUrl: "/Projects/woodfry.jpg",
     urlLink: "https://woodfry.com.bd/",
   },
   {
@@ -159,7 +153,7 @@ export const projectsData = [
       "logos:mongodb-icon",
       "logos:docker-icon",
     ],
-    imageUrl: palmers,
+    imageUrl: "/Projects/palmers.png",
     urlLink: "https://www.palmers.at/",
   },
 ] as const;
