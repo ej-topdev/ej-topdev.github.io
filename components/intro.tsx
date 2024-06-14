@@ -21,6 +21,7 @@ export default function Intro() {
       className="mb-16 sm:mb-0 text-center scroll-mt-[100rem] particles-section pt-28 pb-14 sm:pt-36 sm:pb-18 w-full px-4"
     >
       <ParticleContainer />
+      <div>particle</div>
       <div className="flex items-center justify-center">
         <div className="relative">
           <motion.div
