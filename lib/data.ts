@@ -77,7 +77,7 @@ export const projectsData = [
       "logos:azure-icon",
       "logos:bootstrap",
     ],
-    imageUrl: "/projects/the_good_exchange.png",
+    imageUrl: "/projects/the_good_exchange.jpg",
     urlLink: "https://thegoodexchange.com/",
   },
   {
@@ -93,7 +93,7 @@ export const projectsData = [
       "logos:aws",
       "logos:tailwindcss-icon",
     ],
-    imageUrl: "projects/haven.png",
+    imageUrl: "/projects/haven.jpg",
     urlLink: "https://www.haven.com/",
   },
   {
@@ -108,7 +108,7 @@ export const projectsData = [
       "logos:mongodb-icon",
       "logos:docker-icon",
     ],
-    imageUrl: "projects/MarshMcLennan.png",
+    imageUrl: "/projects/MarshMcLennan.jpg",
     urlLink: "https://www.marshmclennan.com/",
   },
   {
@@ -123,7 +123,7 @@ export const projectsData = [
       "logos:mongodb-icon",
       "logos:aws",
     ],
-    imageUrl: "projects/therapeutic_frontiers.png",
+    imageUrl: "/projects/therapeutic_frontiers.jpg",
   },
   {
     title: "IV Commerce Sass Platform",
@@ -153,7 +153,7 @@ export const projectsData = [
       "logos:mongodb-icon",
       "logos:docker-icon",
     ],
-    imageUrl: "/Projects/palmers.png",
+    imageUrl: "/Projects/palmers.jpg",
     urlLink: "https://www.palmers.at/",
   },
 ] as const;
