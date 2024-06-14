@@ -8,7 +8,7 @@ import { FaGithub } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
 import ParticleContainer from "./particle-container";
-import githubdp from "@/public/githubdp.jpg";
+import photo from "@/public/photo.png";
 
 export default function Intro() {
   const { ref } = useSectionInView("Home", 0.5);
@@ -33,7 +33,7 @@ export default function Intro() {
             }}
           >
             <Image
-              src={githubdp}
+              src={photo}
               alt="Ricardo portrait"
               width="192"
               height="192"

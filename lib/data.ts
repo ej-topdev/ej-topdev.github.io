@@ -1,14 +1,11 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import cryptoCrowdImg from "@/public/cryptocrowd2.png";
-import ozdevsImg from "@/public/ozdevs-two.png";
-import assetTradingImg from "@/public/asset-trading.jpg";
-import euphorusImg from "@/public/euphorus-two.png";
-import euphorusBackendImg from "@/public/euphorus-backend.png";
-import techprowlImg from "@/public/techprowl-two.png";
-import taskManagerImg from "@/public/task-manager.png";
-import familyTreeImg from "@/public/bfsproject.jpg";
-import binaryGameImg from "@/public//binary-game.png";
+import haven from "@/public/projects/haven.png";
+import MarshMcLennan from "@/public/projects/MarshMcLennan.png";
+import the_good_exchange from "@/public/projects/the_good_exchange.png";
+import therapeutic_frontiers from "@/public/projects/therapeutic_frontiers.png";
+import woodfry from "@/public/Projects/woodfry.jpg";
+import palmers from "@/public/Projects/palmers.png";
 
 export const links = [
   {
@@ -76,7 +73,7 @@ export const projectsData = [
   {
     title: "The Good Exchange",
     description:
-      "The Good Exchange, initially a platform for administering Greenham Trust's charitable grants, was expanded to connect other funders with suitable causes. To enhance scalability and functionality, the platform was migrated to Azure cloud by One Beyond, along with implementing a new fee-charging model to ensure 100% of funds go to the intended causes. This migration included consolidating databases and transforming the user experience, ultimately enhancing the platform's capacity to channel over £13 million in funding to 1,800 UK-based charitable organizations.",
+      "The Good Exchange, initially designed to administer Greenham Trust's charitable grants, evolved into a charity funding matchmaking portal to connect funders with suitable causes. I migrated the platform to Azure, enhancing its functionality and scalability, and updated the fee-charging model to ensure transparency and that 100% of funds and donations reach the intended causes. This project involved consolidating databases, transforming the donor journey and user experience, and integrating external systems for deeper partnerships across the charitable sector.",
     tags: [],
     icons: [
       "logos:javascript",
@@ -86,13 +83,13 @@ export const projectsData = [
       "logos:azure-icon",
       "logos:bootstrap",
     ],
-    imageUrl: cryptoCrowdImg,
+    imageUrl: the_good_exchange,
     urlLink: "https://thegoodexchange.com/",
   },
   {
     title: "Haven",
     description:
-      "Haven, part of the Bourne Leisure group, undertook a significant overhaul of its legacy web systems to enhance performance and user experience, resulting in response times improving by up to 50 times and eliminating regular critical outages. The project, executed by One Beyond, involved migrating to a modern content management system, utilizing Elasticsearch for optimized search functionality, and leveraging Next.js for fast, user-friendly web applications. This transformation has not only resolved performance issues but also introduced new features that significantly boosted revenue by several million pounds annually.",
+      "To enhance web performance and user experience, I overhauled Haven’s outdated legacy systems to handle high volumes of enquiries and improve search and sales. By migrating the platform to modern cloud infrastructure and optimizing search functionality with technologies like Elasticsearch and Next.js, response times improved by up to 50 times, and system reliability transformed from regular critical outages to none. These improvements have significantly increased revenue, enhanced customer experience, and provided the ability to experiment with and fine-tune product offerings.",
     tags: [],
     icons: [
       "logos:javascript",
@@ -102,13 +99,13 @@ export const projectsData = [
       "logos:aws",
       "logos:tailwindcss-icon",
     ],
-    imageUrl: cryptoCrowdImg,
+    imageUrl: haven,
     urlLink: "https://www.haven.com/",
   },
   {
     title: "Marsh & McLennan",
     description:
-      "Developed a new client-facing application for Marsh & McLennan to enhance the efficiency of their real estate operations. Utilizing a microservices architecture with NodeJS, the application integrates with other Marsh Eurosys systems, replacing outdated legacy applications. This tool streamlines real estate management, boosts revenue, and improves client retention through a superior user experience.",
+      "I developed a new client-facing application for Marsh Real Estate to boost efficiency by replacing obsolete legacy systems with a modern, microservices architecture. The application communicates with Marsh Eurosys applications using RabbitMQ and Spazio file transfer tools, facilitating real estate movement management and improving user experience. This has led to increased revenues and client retention for Marsh Real Estate.",
     tags: [],
     icons: [
       "logos:javascript",
@@ -117,13 +114,13 @@ export const projectsData = [
       "logos:mongodb-icon",
       "logos:docker-icon",
     ],
-    imageUrl: cryptoCrowdImg,
-    urlLink: "https://www.haven.com/",
+    imageUrl: MarshMcLennan,
+    urlLink: "https://www.marshmclennan.com/",
   },
   {
     title: "Therapeutic Frontiers",
     description:
-      "Therapeutic Frontiers improved its data management by partnering with One Beyond to develop a bespoke Laboratory Information Management System (LIMS) deployed in AWS. This system ensures perpetual, traceable, and searchable data storage, adhering to regulatory requirements and client reporting formats.",
+      "I developed a bespoke Laboratory Information Management System (LIMS) for Therapeutic Frontiers to improve efficiency in capturing and storing respiratory test data. The system, deployed in AWS, ensures data adherence to regulatory requirements, with perpetual, timestamped, and traceable storage, and searchable records exportable into client formats. This solution replaces the inefficient paper-based process and supports ongoing business growth with future-proofing and continuous support.",
     tags: [],
     icons: [
       "logos:javascript",
@@ -132,8 +129,38 @@ export const projectsData = [
       "logos:mongodb-icon",
       "logos:aws",
     ],
-    imageUrl: cryptoCrowdImg,
-    urlLink: "https://www.haven.com/",
+    imageUrl: therapeutic_frontiers,
+  },
+  {
+    title: "IV Commerce Sass Platform",
+    description:
+      "IV Commerce is a SaaS ecommerce platform in Bangladesh, enabling small businesses to easily run their online stores without the need for technical expertise or server management. The platform, built using ReactJs, NextJs, and NodeJs with MongoDB, offers customizable themes and features for both single and multivendor structures, focusing on user and seller experience. Key functionalities include site customization, product and stock management, vendor permissions, order handling, special event management, and real-time customer messaging, allowing business owners to focus solely on growth.",
+    tags: [],
+    icons: [
+      "logos:javascript",
+      "logos:nodejs-icon",
+      "logos:angular-icon",
+      "logos:mongodb-icon",
+      "logos:docker-icon",
+    ],
+    imageUrl: woodfry,
+    urlLink: "https://woodfry.com.bd/",
+  },
+  {
+    title: "Pentaho and microstrategy",
+    description:
+      "We conducted a comprehensive audit of Palmers Textil AG's Pentaho and MicroStrategy ETL processes, identifying critical issues and providing actionable improvement suggestions. Our team reviewed and optimized data integration, reporting systems, and documentation to enhance operational efficiency. Implementing these recommendations will streamline ETL processes, improve data reliability, and align reporting with departmental goals.",
+    tags: [],
+    icons: [
+      "logos:javascript",
+      "logos:nodejs-icon",
+      "logos:react",
+      "logos:spring-icon",
+      "logos:mongodb-icon",
+      "logos:docker-icon",
+    ],
+    imageUrl: palmers,
+    urlLink: "https://www.palmers.at/",
   },
 ] as const;
 
