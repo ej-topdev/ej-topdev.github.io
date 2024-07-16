@@ -33,7 +33,7 @@ export const experiencesData = [
     title: "Senior Full Stack Developer",
     location: "One Beyond ♦ Manchester, UK",
     description:
-      "Developed diverse services including SAP solutions, Cloud Engineering, and Web Development",
+      "Developed and maintained several projects across various industries including e-Commerce, real-estate, and education",
     icon: React.createElement(CgWorkAlt),
     date: "09/2022 – 05/2024",
   },
@@ -57,7 +57,7 @@ export const experiencesData = [
     title: "Full Stack Developer",
     location: "DICEUS ♦ Copenhagen, DK",
     description:
-      "Developed over 5 projects, spanning various sectors including technology, e-commerce, insurance, banking, and healthcare",
+      "Developed over 5 projects, spanning various sectors including technology, e-commerce, insurance, and healthcare",
     icon: React.createElement(CgWorkAlt),
     date: "08/2017 – 06/2019",
   },

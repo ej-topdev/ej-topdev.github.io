@@ -63,7 +63,7 @@ export default function Intro() {
       >
         <span className="font-bold">Hello, I'm Elias.</span> a{" "}
         <span className="font-bold">Full Stack Developer</span> specializing in
-        <span className="font-bold"> Javascript</span>, and <span className="font-bold">Java</span>.
+        <span className="font-bold"> Javascript</span>, <span className="font-bold">Python</span>, <span className="font-bold">C#</span>, and <span className="font-bold">Java</span>.
         I excel in creating robust and scalable web applications, delivering high-quality code efficiently.
       </motion.h1>
 
